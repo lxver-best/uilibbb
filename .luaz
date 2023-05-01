@@ -493,12 +493,11 @@ do
         Library.Theme.Asuka = Utility.AddImage("Abyss/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
         --
         Window.SetText(1, "Bypassing")
-        --
+        wait(1)
         Window.SetText(1, "Loading")
-        --
+        wait(1)
         Window.SetText(2, "Finished")
         wait(1.5)
-        --
         Utility.RemoveDrawing(WindowOutline)
         Utility.RemoveDrawing(WindowOutlineBorder)
         Utility.RemoveDrawing(WindowTopline)
