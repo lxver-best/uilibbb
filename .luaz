@@ -492,12 +492,12 @@ do
         Library.Theme.Violet = Utility.AddImage("Abyss/Assets/UI/Violet.png", "https://i.imgur.com/7B56w4a.png")
         Library.Theme.Asuka = Utility.AddImage("Abyss/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
         --
-        Window.SetText(1, "Checking Assets")
+        Window.SetText(1, "Bypassing")
         --
-        Window.SetText(1, "Checking Input")
-        Utility.CLCheck(Window)
+        Window.SetText(1, "Loading")
         --
         Window.SetText(2, "Finished")
+        wait(1.5)
         --
         Utility.RemoveDrawing(WindowOutline)
         Utility.RemoveDrawing(WindowOutlineBorder)
